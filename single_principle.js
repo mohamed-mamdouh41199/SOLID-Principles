@@ -1,5 +1,7 @@
-// This is the first principle of the SOLID principles.
+// This is the first principle of the SOLID principles, Single Responsibility Principle (SRP)
 // Single Responsibility Principle (SRP) :- Is a class should have only one reason to change, and it should only have one job.
+// In other words, a class should only have one responsibility or task.
+// This principle helps to keep the code clean, maintainable, and easy to understand.
 
 /////////// Bad Example of Single Responsibility Principle (SRP) ////////////
 class User {
@@ -32,6 +34,7 @@ class User {
 // console.log(`User Email: ${user.getEmail()}`);
 // user.saveToDatabase(); 
 // user.sendEmail();
+
 
 ////////////// Example of Single Responsibility Principle (SRP) //////////////
 class User2 {
