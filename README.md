@@ -38,3 +38,17 @@ SOLID stands for five design principles that help you write code that's easy to 
 **Idea:** If you have a general type (like "bird") and specific versions (like "sparrow" or "penguin"), the specific versions should work anywhere the general type is used without causing problems.
 
 **Why?** Imagine a toy box where any toy car can fit in a "car" slot. If a specific car doesn’t fit, it breaks the system. In code, this means specific types should behave like their general type so you can swap them out without surprises.
+
+---
+
+## 4. Interface Segregation Principle (ISP)
+**Idea:** Don’t force your code to use things it doesn’t need. Keep interfaces (the rules your code follows) small and specific.
+
+**Why?** If you give someone a huge toolbox with tools they’ll never use, it’s overwhelming. In code, if a part of your program is forced to follow rules it doesn’t need, it’s harder to work with. By keeping rules focused, your code stays clear and efficient.
+
+---
+
+## 5. Dependency Inversion Principle (DIP) 
+**Idea:** Big parts of your code shouldn’t rely on specific details of smaller parts. Instead, both should rely on general rules (abstractions).
+
+**Why?** Imagine building a house that only works with one specific brand of bricks. If that brand disappears, you’re stuck! In code, if big parts depend on small, specific details, changing those details is hard. By using general rules, you can swap out details (like switching brick brands) without rebuilding everything.
